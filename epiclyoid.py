@@ -1,10 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib import animation
 from math import *
-import cmath as math2
 import numpy as np
-import sys
-import parser
 
 
 
