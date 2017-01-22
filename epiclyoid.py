@@ -6,49 +6,12 @@ import numpy as np
 import sys
 import parser
 
-reps = 1
 
-print("0. Exit ")
-print("1. Input integer value ")
-print("2. Input fraction numbers ")
-print("3. Input root number  ")
-print("4. Input Euler's number")
-opt = int(raw_input("Choice : "))
 
-if opt == 0:
-    sys.exit(0)
-if opt == 1:
-    R = int(raw_input(" R = "))
-    r = int(raw_input(" r = "))
-    reps = int(raw_input("Number of repetitions = "))
-if opt == 2:
-    r = int(raw_input(" r = "))
-    print ("R = n/d")
-    n = float(raw_input("n = "))
-    d = float(raw_input("d = "))
-    reps = int(raw_input("Number of repetitions = "))
+R = float(raw_input(" R = "))
+r = float(raw_input(" r = "))
+reps = int(raw_input("Number of repetitions = "))
 
-    R = float(n/d)
-if opt == 3:
-    r = int(raw_input(" r = "))
-    R = sqrt(float(raw_input(" R = ")))
-    reps = int(raw_input("Number of repetitions = "))
-if opt == 4:
-    r = int(raw_input(" r = "))
-    print ("1. e + x ")
-    print ("2. e - x ")
-    print ("3. e * x ")
-    print ("4. e / x ")
-    op = int(raw_input("Choice : "))
-    if op == 1:
-        R = float(math2.e + (int(raw_input("e +  "))))
-    if op == 2:
-        R = float(math2.e - (int(raw_input("e -  "))))
-    if op == 3:
-        R = float(math2.e * (int(raw_input("e *  "))))
-    if op ==4:
-        R = float(math2.e / (int(raw_input("e /  "))))
-    reps = int(raw_input("Number of repetitions = "))
 
 
 
@@ -109,7 +72,3 @@ anim = animation.FuncAnimation(fig, animate,
 plt.grid()
 plt.plot(x_points, y_points, alpha=0)
 plt.show()
-
-
-
-
