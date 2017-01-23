@@ -63,7 +63,7 @@ def animate(i):
 anim = animation.FuncAnimation(fig, animate,
                                init_func=init,
                                frames=circumference,
-                               interval=1,
+                               interval=20,
                                blit=True)
 
 plt.grid()
