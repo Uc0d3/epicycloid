@@ -14,8 +14,11 @@ Demo:
 
 R = 4.3
 r = 1.5
+<img src="https://s23.postimg.org/3ucu0e6jv/figure_1.png">
 <a href="https://media.giphy.com/media/26gst2dhATX1LyejK/source.gif">View Gif</a>
+
 
 R = 4.3
 r = -1.5
 <a href="https://media.giphy.com/media/l0ExrlhDo54H115Is/source.gif">View Gif</a>
+<img src="https://s23.postimg.org/dsvrpbzd7/figure_2.png">
