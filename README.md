@@ -1,5 +1,5 @@
-# epicycloid
-Python Epicycloid function draw
+# Python Epicycloid and Hipocycloid function simulator (animator)
+Python Epicycloid and Hipocycloid function simulator
 
 Still underwork, wait for further updates
 
