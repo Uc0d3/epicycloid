@@ -3,9 +3,9 @@ Python Epicycloid and Hipocycloid function simulator
 
 Still underwork, wait for further updates
 
-R = static circle radius
-r = circler radius
-Nb of reps = number of rotations of circler around static Circle
+R = static circle radius <br>
+r = circler radius  <br>
+Nb of reps = number of rotations of circler around static Circle <br>
 
 Hipocyloid simulator:
 Input a negative value for R or r
